@@ -1,0 +1,41 @@
+# ============================================================
+# CONFIGURACIÓN DE TUS LIBROS
+# Llena esto con tus datos reales. Los agentes leen este archivo
+# para saber qué libros promocionar y con qué información.
+# ============================================================
+
+author_name: "Tu Nombre de Autor"
+series_name: "Post-Singularity Books"
+
+social_links:
+  x: "https://x.com/111psingularity"
+  youtube: "https://www.youtube.com/@Matias-sotelo-singularity"
+  # LinkedIn personal no se automatiza (ver GUIA_INSTALACION.md), pero puedes
+  # poner aquí el link a tu perfil para que aparezca en el README:
+  linkedin: "https://www.linkedin.com/in/matias-sotelo-484190419/"
+
+# ID del canal de YouTube (NO es el @handle). Para obtenerlo gratis:
+# ve a tu canal > Configuración avanzada, o usa
+# https://www.youtube.com/account_advanced estando logueado.
+youtube_channel_id: ""
+brand_voice: >
+  Tono: visionario, filosófico pero accesible, dirigido a lectores
+  de ciencia ficción dura y transhumanismo. Evita el hype vacío;
+  conecta ideas de IA/singularidad con preguntas humanas reales.
+
+books:
+  - title: "Título del libro 1"
+    amazon_url: "https://www.amazon.com/dp/XXXXXXXXXX"
+    short_pitch: "Una frase de 1 línea que resuma el gancho del libro."
+    themes: ["inteligencia artificial", "singularidad", "posthumanismo"]
+    target_audience: "fans de ciencia ficción dura y futuristas"
+    status: "published" # published | preorder
+
+  - title: "Título del libro 2"
+    amazon_url: "https://www.amazon.com/dp/YYYYYYYYYY"
+    short_pitch: "Otra frase gancho."
+    themes: ["mentes digitales", "evolución de la consciencia"]
+    target_audience: "lectores de hard sci-fi"
+    status: "published"
+
+# Añade tantos libros como tengas, siguiendo el mismo formato.
